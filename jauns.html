@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DzD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2> Gaidot dzimšanas dienu.. </h2>
+        <hr>
+        
+    <form>
+        <p> Ievadi pilnu datumu, kad esi dzimis </p>
+        <p>gads <input type="text" name="gads" id="gads"></p>
+        <p>mēnesis <input type="text" name="menesis" id="menesis"></p>
+        <p>diena <input type="text" name="diena" id="diena"></p>
+        <div>
+            <input value="Aprēķināt dienu skaitu līdz dzimšanas dienai" name="poga"  type="button" onclick="calculateDays()">
+        </div>
+        <p> Līdz svētkiem atlikušas </p>
+        <p id="result"></p>
+        <p>Ja gribi izdzēst formas saturu, spied pogu
+            <input value="RESET" type="reset">
+        </p>
+        <script src="calculate.js"></script>
+        </form>
+
+    </body>
+</html>
